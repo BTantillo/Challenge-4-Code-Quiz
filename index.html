@@ -9,15 +9,23 @@
 </head>
 <body>
     <div>
+        <h2 id="countdown"></h2>
         <div class="container" id="startMessage">
             <h1 class="welcome">Are you ready?</h1>
             <button id="start">Start Timed Quiz</button>
-            <h2 id="countdown"></h2>
+            
             <p id="main"></p>
           </div>
         
           <div class="container" id="question">
-              
+              <h1 id="questionTitle"></h1>
+              <div id="questionAnswers"></div>
+          </div>
+
+          <div id="quizOver">
+              <input type="text" id="initials">
+              <h1 id="score"></h1>
+              <button id="submitButton">Submit Score</button>
           </div>
 
       <script src="./script.js"></script>
